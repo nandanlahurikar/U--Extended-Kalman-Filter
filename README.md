@@ -1,4 +1,18 @@
 # Extended Kalman Filter Project Starter Code
+Extended Kalman Filter:
+Designed Kalman filter to estimate the position (px,py) and velocity (vx,vy) of moving pedestrian in 2D using lidar and radar. It is a recursive 2 step process state prediction and measurement update.  
+
+Converted rada’s polar coordinates in to citation coordinate. 
+
+Defined Covariance Matrix Q: It is a motion noise, acceleration as a random noise, because sensors only track position and velocity, not acceleration. As more times passes we will have more uncertainty about delta t, I.e. acceleration.
+
+ 
+ 
+
+ 
+
+
+
 Self-Driving Car Engineer Nanodegree Program
 
 In this project utilize a kalman filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower that the tolerance outlined in the project reburic. 
