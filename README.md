@@ -1,12 +1,13 @@
-# Extended Kalman Filter Project Starter Code
 Extended Kalman Filter:
 Designed Kalman filter to estimate the position (px,py) and velocity (vx,vy) of moving pedestrian in 2D using lidar and radar. It is a recursive 2 step process state prediction and measurement update.  
+![alt_text](https://github.com/nandanlahurikar/U--Extended-Kalman-Filter/blob/master/P&U.png?raw=true)
 
 Converted rada’s polar coordinates in to citation coordinate. 
 
+ ![alt_text]https://github.com/nandanlahurikar/U--Extended-Kalman-Filter/blob/master/Q.png?raw=true
 Defined Covariance Matrix Q: It is a motion noise, acceleration as a random noise, because sensors only track position and velocity, not acceleration. As more times passes we will have more uncertainty about delta t, I.e. acceleration.
-
- 
+U--Extended-Kalman-Filter/Q.png
+  ![alt_text]https://github.com/nandanlahurikar/U--Extended-Kalman-Filter/blob/master/Q.png?raw=true
  ![alt_text](https://github.com/nandanlahurikar/U--Extended-Kalman-Filter/blob/master/2017-09-17.png)
 
  
