@@ -7,6 +7,8 @@ Converted rada’s polar coordinates in to citation coordinate.
 
 Defined Covariance Matrix Q: It is a motion noise, acceleration as a random noise, because sensors only track position and velocity, not acceleration. As more times passes we will have more uncertainty about delta t, I.e. acceleration.
 
+Rduces RMSE values for X,Y VX and VY by chnaging maesument covarience matrix for both lidar and radar.
+
 ![alt_text]https://github.com/nandanlahurikar/U--Extended-Kalman-Filter/blob/master/Q.png?raw=true
 ![alt_text](https://github.com/nandanlahurikar/U--Extended-Kalman-Filter/blob/master/2017-09-17.png)
 
